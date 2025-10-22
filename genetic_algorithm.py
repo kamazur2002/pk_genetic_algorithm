@@ -26,6 +26,10 @@ class GeneticAlgorithm:
         
         self.population = population
         return population
+    
+    def run(self, epochs: int):
+        """Run the genetic algorithm (placeholder for future implementation)"""
+        pass
 
     def _calculate_gene_length(self, bound, precision):
         """Calculate the length of the gene for a given variable based on bounds and precision"""
